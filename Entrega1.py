@@ -1,3 +1,7 @@
+# S'importen llibreries:
+import numpy as np
+import matplotlib.pyplot as plt
+import scipy.stats as ss
 # S'afegeixen les dades del problema:
 d = 0.02                              # Distància/gruix (m)
 V = 40                                # Voltatge (v)
