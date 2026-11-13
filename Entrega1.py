@@ -1,7 +1,7 @@
 # S'afegeixen les dades del problema:
 d = 0.02                              # Distància/gruix (m)
 V = 40                                # Voltatge (v)
-C_v = 3698                            # Calor específic (J/(Kg*K))
+c_v = 3698                            # Calor específic (J/(Kg*K))
 p = 1081                              # Densitat (kg/m^3)
 k = 0.56                              # Conductivitat térmica
 sigma = 0.472                         # Conductividad eléctrica
