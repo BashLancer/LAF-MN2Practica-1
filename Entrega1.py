@@ -39,7 +39,7 @@ for a in range(0, 101):
 # Es recupera la temperatura:
 l = np.array(h) * T_0
 
-# Es represente gràficament:
+# Es representa gràficament:
 plt.plot(x,l)
 plt.xlabel('Posición (cm)')
 plt.ylabel('Temperatura (ºC)')
