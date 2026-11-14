@@ -27,7 +27,7 @@ ta = 0.025                            # Valor del mallat temporal final
 # Es defineix la temperatura inicial y es crea un mallat espaial:
 x = np.linspace(0, 2, 101)
 T_inicial = 36.5 / T_0
-h= []
+h = []
 
 # Es calcula la distribució de temperatures, mitjançant una série de Fourier:
 for a in range(0, 101):
