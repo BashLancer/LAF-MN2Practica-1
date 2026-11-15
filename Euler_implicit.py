@@ -346,3 +346,14 @@ plt.xlabel('Posición (cm)')
 plt.ylabel('Temperatura (ºC)')
 plt.legend(prop={'size':15})
 plt.show()
+
+# Es compara la representació gràfica dels errors que es cometen en funció del mallat escogit:
+plt.figure(figsize = (15,10))
+plt.plot(x, error_6, '-.', lw = 2.5, label = 'Error 0.51')
+plt.plot(x, error_7, '^', label ='Error 0.49', ms = 10)
+plt.plot(x, error_8, '.', label = 'Error 0.25', ms = 10)
+
+plt.xlabel('Posición (cm)')
+plt.ylabel('Error')
+plt.legend(prop={'size':15})
+plt.show()
