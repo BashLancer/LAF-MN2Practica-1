@@ -48,3 +48,31 @@ plt.axvspan(0.75, 1.25, facecolor ='lightblue', alpha=0.3)
 plt.axvspan(0, 0.75, facecolor ='lightcoral', alpha=0.3)
 plt.axvspan(1.25, 2., facecolor ='lightcoral', alpha=0.3)
 plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# SOLUCIÓ NUMÈRICA: EULER IMPLICIT
+
+# Euler implícit amb bucle de Gauss-Seidel per dx ** 2:
+
+# S'escriu les condicions inicials:
+dt = dx ** 2
+T_inicial = 36.5 / T_0
+iteraciones = int(ta / dt) + 1
+
+
