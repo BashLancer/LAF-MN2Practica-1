@@ -158,7 +158,7 @@ plt.ylabel('Error')
 plt.legend()
 plt.show()
 
-# COMPARACIÓ AMB EL MÉTODE D'EULER EXPLÍCIT:
+# COMPARACIÓ AMB EL MÉTODE D'EULER EXPLÍCIT: (S'EVALUEN ELS MATEIXOS VALORS QUE PER EL MÉTODE EXPLÍCIT)
 
 # Euler implícit amb bucle de Gauss-Seidel per 0.51 * dx ** 2:
 
