@@ -49,6 +49,7 @@ for k in range(1000):
     Matriz_4 = M.copy()
     
 # Es calcula la solució analítica:
+x = np.linspace(0, 2, 101)
 ta = (iteraciones - 1) * dt
 T_inicial = 36.5 / T_0
 h= []
