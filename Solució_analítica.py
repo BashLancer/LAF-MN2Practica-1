@@ -4,23 +4,36 @@ import matplotlib.pyplot as plt
 import scipy.stats as ss
 
 # S'afegeixen les dades del problema:
-d = 0.02                              # Distància/gruix (m)
-V = 40                                # Voltatge (v)
-c_v = 3698                            # Calor específic (J/(Kg*K))
-p = 1081                              # Densitat (kg/m^3)
-k = 0.56                              # Conductivitat térmica
-sigma = 0.472                         # Conductividad eléctrica
-N = 101                               # Número de punts, mallat espaial
+# Distància/gruix (m)
+d = 0.02 
+# Voltatge (v)
+V = 40
+# Calor específic (J/(Kg*K))
+c_v = 3698
+# Densitat (kg/m^3)
+p = 1081
+# Conductivitat térmica
+k = 0.56
+# Conductividad eléctrica
+sigma = 0.472
+# Número de punts, mallat espaial
+N = 101                               
 
 # Es calculen els paràmetres:
-P_ext = (sigma*(V**2))/(2*d**2)       # Fonts externes de calor del sistema
-t_0 = ((d**2)*c_v*p)/k                # Temps normalitzat
-T_0 = ((d**2)*P_ext)/k                # Temperatura normalitzada
+# Fonts externes de calor del sistema
+P_ext = (sigma*(V**2))/(2*d**2)
+# Temps normalitzat
+t_0 = ((d**2)*c_v*p)/k 
+# Temperatura normalitzada
+T_0 = ((d**2)*P_ext)/k                
 
 # Es normalitza les variables espaials i temporals:
-d_norm = 0.02/d                       # Distància normalitzada
-dx = d_norm/100                       # Variació del mallat espaial
-ta = 0.025                            # Valor del mallat temporal final
+# Distància normalitzada
+d_norm = 0.02/d
+# Variació del mallat espaial
+dx = d_norm/100
+# Valor del mallat temporal final
+ta = 0.025                            
 
 # Es ressol analíticament el problema: 
 
