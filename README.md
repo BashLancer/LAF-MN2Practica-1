@@ -1,6 +1,7 @@
 # Pràctica 1- Mètodes numèrics II: Modelització del tractament d’ablació cardíaca IVS
 
 Codi per la resolució numèrica de l'equació de calor plantejada a l'informe.
+
 Autors: Lucas González Cabanillas (1747022), Fernando González Martínez (1673024), Alain Caba Adame (1750988)
 
 Llibreries utilitzades:
