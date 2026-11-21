@@ -3,4 +3,11 @@
 Codi per la resolució numèrica de l'equació de calor plantejada a l'informe.
 Autors: Lucas González Cabanillas (1747022), Fernando González Martínez (1673024), Alain Caba Adame (1750988)
 
-Per obtenir els resultats que es mostren a l'informe l'únic que s'ha de fer és copiar i pegar el codi en un collab o a un arxiu python al visual estudio code i executar-lo.
+Llibreries utilitzades:
+-Matplotlib
+-Scipy
+-Numpy
+
+Execució
+Els quatre documents s'executen de manera independent. Si utilitzes visual studio code, cal instalar les llibreries abans d'executar el codi escribint a la terminal "pip install numpy", "pip install matplotlib" o "pip install scipy". També està la opció d'executar el codi en un document collab de google, allà les llibreries ja estàn instalades i només caldria copiar, pegar el codi i executar-lo.
+
