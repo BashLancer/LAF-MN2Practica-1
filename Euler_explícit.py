@@ -50,7 +50,7 @@ error_abs3= np.abs(T_anal-solucio(0.25))
 #grafiquem. Separem gamma=0,51 de les altres dues perque sinó, no es veu bé.
 
 #Fem la part esquerra de la figura
-fig,(ax1,ax2)=plt.subplots(1,2,figsize=(10,4))
+fig,(ax1,ax2,ax3,ax4)=plt.subplots(1,4,figsize=(30,6))
 ax1.plot(x,T_anal,color='black',linestyle='-',label='S.Analítica')
 ax1.plot(x,solucio(0.49),color='red',linestyle='--',label=r'$\gamma = 0.49$')
 ax1.plot(x,solucio(0.25),color='blue',linestyle=':',label=r'$\gamma = 0.25$')
@@ -66,21 +66,16 @@ ax2.set_ylabel('Error absolut')
 ax2.set_title('Error numèric')
 ax2.legend()
 
-
-
 #part esquerra de gamma=0,51
-
-fig,(ax1,ax2) =plt.subplots(1,2,figsize=(10,4))
-ax1.plot(x,T_anal,color='black',label='S.Analítica')
-ax1.plot(x,T_anal-solucio(0.51),color='green',label=r'$\gamma = 0.51$')
-ax1.set_xlabel(r'$\hat{x}$')
-ax1.set_ylabel(r'$\hat{T}$')
-ax1.set_title(r'Solució a $\hat{t}_a = 0.025$')
-ax1.legend()
+ax3.plot(x,T_anal,color='black',label='S.Analítica')
+ax3.plot(x,T_anal-solucio(0.51),color='green',label=r'$\gamma = 0.51$')
+ax3.set_xlabel(r'$\hat{x}$')
+ax3.set_ylabel(r'$\hat{T}$')
+ax3.set_title(r'Solució a $\hat{t}_a = 0.025$')
+ax3.legend()
 #part dreta gamma=0,51
-ax2.plot(x, error_abs1,color='green')
-ax2.set_xlabel(r'$\hat{x}$')
-ax2.set_ylabel('Error absolut')
-ax2.set_title('Error numèric')
+ax4.plot(x, error_abs1,color='green')
+ax4.set_xlabel(r'$\hat{x}$')
+ax4.set_ylabel('Error absolut')
+ax4.set_title('Error numèric')
 plt.show()
-
