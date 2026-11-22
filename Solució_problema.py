@@ -1,3 +1,5 @@
+#HE REUTILITZAT PART DEL CODI D'EULER EXPLÍCIT
+
 #importem llibreries
 import numpy as np
 import matplotlib.pyplot as plt
